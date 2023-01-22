@@ -2,6 +2,12 @@
 
 This repository includes two services that are required in order to render stats images for Aftermath.
 
+## How to start this up?
+```
+(cd webapp; yarn; yarn dev)
+(cd service; go run main.go)
+```
+
 #
 ### `webapp` 
 Is a NextJS app straight from the OG tutorial with JSX components required to render the UI and one API route that returns a base64 encoded png image.
