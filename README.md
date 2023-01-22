@@ -3,6 +3,8 @@
 This repository includes two services that are required in order to render stats images for Aftermath.
 
 ## How to start this up?
+First and foremost, install `yarn`, `node` and `go`.
+
 ```
 (cd webapp; yarn; yarn dev)
 (cd service; go run main.go)
