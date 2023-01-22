@@ -5,8 +5,18 @@ This repository includes two services that are required in order to render stats
 ## How to start this up?
 First and foremost, install `yarn`, `node` and `go`.
 
+1. Start the mock api service
 ```
+(cd mock; go run main.go)
+```
+2. Start the webapp
+```
+(cd webapp; cat .env.example > .env.local)
 (cd webapp; yarn; yarn dev)
+```
+3. Start the api service
+```
+(cd services; cat .env.example > .env.local)
 (cd service; go run main.go)
 ```
 
