@@ -16,8 +16,8 @@ First and foremost, install `yarn`, `node` and `go`.
 ```
 3. Start the api service
 ```
-(cd services; cat .env.example > .env.local)
-(cd services; go run main.go)
+(cd service; cat .env.example > .env.local)
+(cd service; go run main.go)
 ```
 
 #
